@@ -6,9 +6,10 @@ on:
 
 jobs:
 
-  build:
+  publish:
 
     runs-on: ubuntu-latest
+    environment: DockerHub
 
     steps:
     - name: Set up QEMU
